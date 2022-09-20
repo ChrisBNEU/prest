@@ -157,8 +157,7 @@ class adsorbate(object):
         RdkitMol = Chem.Mol()
         RdkitMol = Chem.RWMol(RdkitMol)
         #reviewed till here!!!
-        
-        outputfile1 = open('Inputfile/AllFiles/ReactionRules.txt','a')
+        outputfile1 = open('/work/westgroup/ChrisB/_00_local_packages/prest/SMILESGeneration/Inputfile/ReactionRules.txt','a')
          
         NumofPt = 0    
         NumofC = 0
